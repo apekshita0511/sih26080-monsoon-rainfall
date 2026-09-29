@@ -19,3 +19,8 @@ cd .. && python -c "import sys;sys.path.insert(0,'tests');import test_core as t;
 
 Outputs are in `outputs/` (`results.json`, per-lead prediction CSVs, `VERIFICATION_REPORT.md`, `dashboard/`).
 See the report for results and limitations; no number is hand-entered.
+
+## Dashboard & deployment
+`dashboard/` is a static Next.js app reading `dashboard/public/data/*.json` (regenerate with `python pipeline/export_web.py` after re-running the pipeline).
+
+Live: https://sih26080-monsoon.vercel.app. The Vercel project is connected to this repo (production branch `main`, Root Directory `dashboard`), so every push to `main` redeploys. Do not run `vercel deploy` from inside `dashboard/` any more: with Root Directory set it would look for `dashboard/dashboard`; deploy from the repo root or just push.
