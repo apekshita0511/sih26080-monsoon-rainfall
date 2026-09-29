@@ -1,0 +1,7 @@
+A 1 {'raw': 13.47, 'global_qm': 13.79, 'regime_qm': 14.39, 'regime_qm_oracle': 17.52, 'regime_gbm': 11.25}
+A 2 {'raw': 14.31, 'global_qm': 14.68, 'regime_qm': 15.44, 'regime_qm_oracle': 22.35, 'regime_gbm': 12.06}
+A 3 {'raw': 14.69, 'global_qm': 15.56, 'regime_qm': 18.87, 'regime_qm_oracle': 24.42, 'regime_gbm': 12.17}
+B 1 {'raw': 14.95, 'global_qm': 14.85, 'regime_qm': 14.87, 'regime_qm_oracle': 16.56, 'regime_gbm': 12.94}
+B 2 {'raw': 14.84, 'global_qm': 15.03, 'regime_qm': 15.34, 'regime_qm_oracle': 16.16, 'regime_gbm': 13.61}
+B 3 {'raw': 16.7, 'global_qm': 17.1, 'regime_qm': 17.53, 'regime_qm_oracle': 18.62, 'regime_gbm': 14.49}
+wrote outputs/results.json
